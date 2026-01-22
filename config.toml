@@ -3,3 +3,4 @@ theme = "solarized_light"
 [editor]
 bufferline = "multiple"
 default-line-ending = "lf"
+true-color = true
