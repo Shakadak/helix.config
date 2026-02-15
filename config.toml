@@ -4,3 +4,11 @@ theme = "solarized_light"
 bufferline = "multiple"
 default-line-ending = "lf"
 true-color = true
+end-of-line-diagnostics = "hint"
+
+[editor.lsp]
+display-progress-messages = true
+display-inlay-hints = true
+
+[editor.inline-diagnostics]
+cursor-line = "warning" # show warnings and errors on the cursorline inline
