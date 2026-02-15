@@ -1,0 +1,14 @@
+[[language]]
+name = "idris"
+grammar = "idris"
+# language-servers = [
+#   {name = "idris2-lsp"}
+# ]
+
+[[grammar]]
+name = "idris"
+source.git = "https://github.com/kayhide/tree-sitter-idris"
+source.rev = "c56a25cf57c68ff929356db25505c1cc4c7820f6"
+
+# [language-server.idris2-lsp]
+# command = "idris2-lsp"
