@@ -6,6 +6,10 @@ default-line-ending = "lf"
 true-color = true
 end-of-line-diagnostics = "hint"
 
+[editor.auto-save]
+after-delay.enable = true
+after-delay.timeout = 500
+
 [editor.lsp]
 display-progress-messages = true
 display-inlay-hints = true
